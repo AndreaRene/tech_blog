@@ -1,0 +1,99 @@
+:root {
+    --cultured: #f5f5f5;
+    --lavenderWeb: #e1e5f2;
+    --beauBlue: #bfdbf7;
+    --metalicSeaweed: #1f7a8c;
+    --gunmetalBlue: #022b3a;
+}
+
+body {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    height: 100vh;
+    background-color: var(--beauBlue);
+}
+
+a {
+    text-decoration: none;
+    color: var(--lavenderWeb);
+}
+
+#pageNav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: var(--gunmetalBlue);
+}
+
+.navLink {
+    color: var(--metalicSeaweed);
+}
+
+.navLink:active {
+    color: var(--cultured);
+    background-color: transparent;
+}
+
+.icons {
+    height: 1.5rem;
+    margin: .2rem;
+}
+
+.posts {
+    margin: 2rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.postTitles {
+    background-color: var(--metalicSeaweed);
+    padding: .7rem .6rem;
+    border: none;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.userNames {
+    font-size: .8rem;
+}
+
+.postTexts {
+    min-height: 5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0 0 .5rem .5rem;
+    background-color: var(--lavenderWeb);
+}
+
+.loginCard {
+    max-width: fit-content;
+    margin: 5rem;
+}
+
+.usernameLogin,
+.passwordLogin,
+.usernameSignup,
+.passwordSignup {
+    width: 100%;
+}
+
+.loginButtons {
+    background-color: var(--gunmetalBlue);
+    margin-top: 1rem;
+    width: 100%;
+    color: var(--beauBlue);
+}
+
+#loginOr {
+    font-size: 5rem;
+    color: var(--gunmetalBlue);
+}
+
+#pageFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1rem;
+    color: var(--gunmetalBlue);
+    background-color: var(--lavenderWeb);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Home | Tech Blog</title>
+
+
+</head>
+
+<body class="d-flex flex-column justify-content-between">
+  <nav class="navbar navbar-expand" id="pageNav">
+    <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between">
+      <h1 id="brand"><a href="/">Let's Talk About Techs</a></h1>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link navLink" href="/">Home</a>
+        </li>
+        <li class="nav-item"><a class="nav-link navLink" href="/dashboard">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link navLink" href="#" id="logout-link">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="d-flex flex-column mb-3" id="pageMain">
+    {{{body}}}
+  </main>
+  <footer class="flex-column" id="pageFooter">
+    <h5 class="text-center">Turning caffine into code since 2019.</h5>
+    <p class="text-center">Always code responsibly.</p>
+  </footer>
+</body>
+
+</html>
+<script src="/js/logout.js"></script>
